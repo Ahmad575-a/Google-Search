@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    color: blue;
+}
+
+/* ===== Navbar ====== */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    display: inline-block;
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+a:hover {
+    color: red;
+}
+
+/* ===== Image style ====== */
+
+img {
+    display: block;
+    height: 100px;
+    width: 300px;
+    padding-top: 190px;
+    margin: auto;
+}
+
+.img-label {
+    color: royalblue;
+    position: relative;
+    bottom: 20px;
+    left: 115px;
+    font-size: 22px;
+}
+
+.img-container {
+    position: relative;
+    text-align: center;
+}
+
+/* ===== form and inputs ====== */
+
+.search-container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 500px;
+    margin: 32px auto;
+}
+.search-bar {
+    border: 1px solid #9bb2df;
+    border-radius: 32px;
+    height: 100%;
+    width: 100%;
+    padding-left: 40px;
+    font-size:20px;
+}
+.search-bar:focus, .search-bar:hover {
+    outline: none;
+    box-shadow: 0 0 5px #9bb2df;
+}
+
+
+/* ==== advanced search form ==== */
+.container {
+    margin: 10px auto;
+    max-width: 500px;
+    padding: 10px;
+  }
+  
+  .form-wrap {
+    background: #fff;
+    padding: 15px 25px;
+  }
+  
+  .form-wrap .form-group {
+    margin-top: 15px;
+  }
+  
+  .form-wrap .form-group label {
+    display: block;
+    color: #666;
+  }
+  
+  .form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+  }
+  
+  .form-wrap .form-group input:focus {
+    border: 1px solid darkgray;
+  }
+
+@media only screen and (max-width: 1400px) {
+    .adv-input{
+      display: block;
+    }
+  }
+
+/* ===== Buttons ====== */
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 36px;
+}
+
+.search-btn {
+    background-color: whitesmoke;
+    color: rgb(97, 90, 90);
+    border: none;
+    font-size: 15px;
+    height: 100%;
+    width: 150px;
+    margin: 8px;
+}
+
+.adv-btn {
+    background-color:blue;
+    color: white;
+    border: 1px solid rgb(70, 135, 240);
+    font-weight: 1000;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    
+}
+
+.search-btn:hover {
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+
+.adv-btn:hover {
+    background-color: white;
+    color: blue;
+}
+
+
+
+/* ===== icons ====== */
+i {
+    color: darkgray;
+    padding: 18px;
+    position: absolute;
+}
